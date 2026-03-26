@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyTube - Live Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { background: #0B0B0F; color: white; font-family: sans-serif; }
+        .video-card { background: #111827; border-radius: 15px; overflow: hidden; transition: 0.3s; }
+        .video-card:hover { transform: translateY(-5px); }
+    </style>
+</head>
+<body>
+    <nav class="p-4 bg-gray-900 border-b border-gray-800 flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-purple-500">MyTube</h1>
+        <div class="bg-gray-800 px-4 py-2 rounded-full text-sm">Live Project ✅</div>
+    </nav>
+    <div class="p-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="video-card p-4">
+            <div class="aspect-video bg-gray-700 rounded-lg mb-4 flex items-center justify-center">
+                <i class="fas fa-play text-4xl"></i>
+            </div>
+            <h3 class="font-bold">Welcome to MyTube Live!</h3>
+            <p class="text-gray-400 text-sm">Successfully deployed on Vercel.</p>
+        </div>
+    </div>
+</body>
+</html>
